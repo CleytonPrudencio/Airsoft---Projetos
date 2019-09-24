@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+    tools:context=".PacotesActivity" >
+
+    <TextView
+        android:id="@+id/pct_1"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Pacotes Prontos"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="223dp" >
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="Pacote 1: Mascara e Colete + 200 Bolinhas + 1 hora e 30 minutos de jogo " />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:text="Pacote 2: Mascara, Colete e Luvas + 250 Bolinhas + 2 horas de jogo " />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:text="Pacote 3: Mascara, Colete e Luva + 300 Bolinhas + 2 horas e 30 minutos de jogo " />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Reservar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:textColor="@color/colorAccent"
+        android:text="Reservar"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>

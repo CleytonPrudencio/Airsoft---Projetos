@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/colorbackground"
+    tools:context=".ReservaActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reservas"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Descricao_Equipamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:text="Equipamentos:"
+
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="139dp">
+
+                    <CheckBox
+                        android:id="@+id/check_colete"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:checked="false"
+                        android:text="Colete"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_mascara"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:checked="false"
+                        android:text="Mascara"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_luva"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:checked="false"
+                        android:text="Luvas"
+                        android:textColor="@color/colorAccent" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Descricao_Bolinhas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quantidade de Bolinhas:"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp">
+
+                    <CheckBox
+                        android:id="@+id/check_100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="100 Bolinhas"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_150"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="150 Bolinhas"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_200"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="200 Bolinhas"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_250"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="250 Bolinhas"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_300"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="300 Bolinhas"
+                        android:textColor="@color/colorAccent" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Descricao_Horas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quantidade de Horas de Jogo:"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="139dp">
+
+                    <CheckBox
+                        android:id="@+id/check_1hora"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="1 Hora"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_1e30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="1 Hora e 30 Minutos"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_2Horas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="2 Horas "
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/check_2e30"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:inputType="numberDecimal"
+                        android:text="2 Horas e 30 Minutos"
+                        android:textColor="@color/colorAccent"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="326dp" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btn_pacotes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:text="Pacotes Prontos"
+                    android:textColor="@color/colorAccent"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="506dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <Button
+                    android:id="@+id/btn_reservar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:text="Reservar"
+                    android:textColor="@color/colorAccent"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="554dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Paintball</string>
+    <string name="txtDescricao">Bem vindo ao Paintball!!!</string>
+    <string name="btpp">Pacotes e preços</string>
+    <string name="txtEnd">Endereço</string>
+    <string name="txtVal">Valores</string>
+    <string name="txtmissoes">Missões</string>
+    <string name="txtimg">Imagens do local.</string>
+    <string name="txtRe">Reservar</string>
+    <string name="txtlogin">Login/Cadastro</string>
+    <string name="txtEqui">Equipamento</string>
+    <string name="activity_login"></string>
+    <string name="Ediemail">E-MAIL</string>
+    <string name="EdiSenha">senha</string>
+    <string name="btLogin">ENTRAR</string>
+    <string name="Cadastro">Cadastre-se</string>
+    <string name="activity_main"></string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="title_activity_teste">TESTE</string>
+    <string name="btn_pacotes">Pacotes Prontos</string>
+    <string name="title_activity_lista_reserva">lista_reserva</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

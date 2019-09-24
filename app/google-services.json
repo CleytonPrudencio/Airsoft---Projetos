@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "388460441789",
+    "firebase_url": "https://airsoft-584f6.firebaseio.com",
+    "project_id": "airsoft-584f6",
+    "storage_bucket": "airsoft-584f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388460441789:android:b55b08e34cf55b5e",
+        "android_client_info": {
+          "package_name": "com.example.dell.airsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388460441789-l26kianavbjhvpkat2qd0sp52snnmbf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.airsoft",
+            "certificate_hash": "f2b60dee8614e82390eea71f69fbb775eaaebb54"
+          }
+        },
+        {
+          "client_id": "388460441789-jitg30reg18lar3km10hnppnc1le9rue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.airsoft",
+            "certificate_hash": "03f9da405454691b384ed622683428b8daf28d24"
+          }
+        },
+        {
+          "client_id": "388460441789-c3vqtfee2omrgvnld1tg2bu769nlrl9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoeSUVrIiZLW88N6W5eXcu_v6ByCF96yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388460441789-c3vqtfee2omrgvnld1tg2bu769nlrl9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
